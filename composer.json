@@ -15,10 +15,4 @@
             }
         ]
     }
-    {
-        "support": {
-            "source": "https://github.com/nvandendries1984/assetmanagement/issues",
-            "irc": "irc://stackhost.nl/support"
-        }
-    }
 }
