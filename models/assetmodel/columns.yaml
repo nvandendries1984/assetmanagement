@@ -1,0 +1,38 @@
+columns:
+    asset_id:
+        label: Asset id
+        type: number
+        searchable: true
+        sortable: true
+    status:
+        label: Status
+        type: text
+        searchable: true
+        sortable: true
+    customer:
+        label: Customer
+        type: text
+        searchable: true
+        sortable: true
+        select: company_name
+        relation: customer
+    created_at:
+        label: Created at
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: Updated at
+        type: datetime
+        searchable: true
+        sortable: true
+    enabled:
+        label: Enabled
+        type: switch
+        searchable: true
+        sortable: true
+    slug:
+        label: Slug
+        type: text
+        searchable: true
+        sortable: true

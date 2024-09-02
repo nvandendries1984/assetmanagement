@@ -1,0 +1,17 @@
+fields:
+    company_name:
+        label: 'Company name'
+        span: left
+        type: text
+    contact_name:
+        label: 'Contact name'
+        span: left
+        type: text
+    contact_mobile:
+        label: 'Contact mobile'
+        span: left
+        type: text
+    contact_mail:
+        label: 'Contact mail'
+        span: left
+        type: email

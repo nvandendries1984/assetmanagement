@@ -1,0 +1,11 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table nielsvandendries_assetmanagement_customers'
+    - builder_table_create_nielsvandendries_assetmanagement_customers.php
+v1.0.3:
+    - 'Created table nielsvandendries_assetmanagement_assets'
+    - builder_table_create_nielsvandendries_assetmanagement_assets.php
+v1.0.4:
+    - 'Updated table nielsvandendries_assetmanagement_customers'
+    - builder_table_update_nielsvandendries_assetmanagement_customers.php

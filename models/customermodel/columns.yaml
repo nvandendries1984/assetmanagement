@@ -1,0 +1,21 @@
+columns:
+    company_name:
+        label: company_name
+        type: text
+        searchable: true
+        sortable: true
+    contact_name:
+        label: contact_name
+        type: text
+        searchable: true
+        sortable: true
+    contact_mail:
+        label: contact_mail
+        type: text
+        searchable: true
+        sortable: true
+    contact_mobile:
+        label: contact_mobile
+        type: text
+        searchable: true
+        sortable: true

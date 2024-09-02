@@ -1,0 +1,10 @@
+name: CustomerController
+modelClass: NielsVanDenDries\Assetmanagement\Models\CustomerModel
+form: $/nielsvandendries/assetmanagement/models/customermodel/fields.yaml
+defaultRedirect: nielsvandendries/assetmanagement/customercontroller
+create:
+    redirect: 'nielsvandendries/assetmanagement/customercontroller/update/:id'
+    redirectClose: nielsvandendries/assetmanagement/customercontroller
+update:
+    redirect: nielsvandendries/assetmanagement/customercontroller
+    redirectClose: nielsvandendries/assetmanagement/customercontroller

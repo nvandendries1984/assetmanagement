@@ -1,0 +1,54 @@
+tabs:
+    fields:
+        created_at:
+            label: 'Created at'
+            mode: datetime
+            span: auto
+            disabled: 1
+            readOnly: 1
+            type: datepicker
+            tab: Details
+        updated_at:
+            label: 'Updated at'
+            mode: datetime
+            span: auto
+            disabled: 1
+            readOnly: 1
+            type: datepicker
+            tab: Details
+fields:
+    customer:
+        label: Customer
+        nameFrom: company_name
+        descriptionFrom: description
+        select: company_name
+        span: left
+        type: relation
+    photo:
+        label: Photo
+        span: right
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
+    asset_id:
+        label: 'Asset id'
+        span: left
+        type: number
+    status:
+        label: Status
+        options:
+            Voorraad: Voorraad
+            Defect: Defect
+            Lab: Lab
+            'In Gebruik': 'In Gebruik'
+            Afgeschreven: Afgeschreven
+        showSearch: true
+        span: left
+        type: dropdown
+    enabled:
+        label: Enabled
+        span: left
+        type: switch

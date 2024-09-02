@@ -1,0 +1,30 @@
+plugin:
+    name: 'nielsvandendries.assetmanagement::lang.plugin.name'
+    description: 'nielsvandendries.assetmanagement::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-circle-o-notch
+    homepage: 'https://nvandendries.nl'
+permissions:
+    Assetmanagement_manager:
+        tab: 'nielsvandendries.assetmanagement::lang.plugin.name'
+        label: 'Assetmanagement Beheerder'
+navigation:
+    main-menu-item-assetmanagement:
+        label: 'nielsvandendries.assetmanagement::lang.plugin.name'
+        url: /
+        icon: icon-circle-o-notch
+        permissions:
+            - Assetmanagement_manager
+        sideMenu:
+            side-menu-item-customers:
+                label: Customers
+                url: nielsvandendries/assetmanagement/customercontroller
+                icon: icon-users
+                permissions:
+                    - Assetmanagement_manager
+            side-menu-item-assets:
+                label: Assets
+                url: nielsvandendries/assetmanagement/assetcontroller
+                icon: icon-inbox
+                permissions:
+                    - Assetmanagement_manager

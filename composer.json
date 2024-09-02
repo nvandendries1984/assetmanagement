@@ -1,0 +1,8 @@
+{
+    "name": "nielsvandendries/assetmanagement-plugin",
+    "type": "october-plugin",
+    "description": "A Small Assetmanagement for Small Businesses",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

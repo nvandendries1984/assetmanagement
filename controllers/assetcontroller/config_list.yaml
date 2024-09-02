@@ -1,0 +1,12 @@
+title: AssetController
+modelClass: NielsVanDenDries\Assetmanagement\Models\AssetModel
+list: $/nielsvandendries/assetmanagement/models/assetmodel/columns.yaml
+recordUrl: 'nielsvandendries/assetmanagement/assetcontroller/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

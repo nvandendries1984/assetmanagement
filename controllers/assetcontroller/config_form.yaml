@@ -1,0 +1,11 @@
+name: AssetController
+modelClass: NielsVanDenDries\Assetmanagement\Models\AssetModel
+form: $/nielsvandendries/assetmanagement/models/assetmodel/fields.yaml
+defaultRedirect: nielsvandendries/assetmanagement/assetcontroller
+create:
+    redirect: 'nielsvandendries/assetmanagement/assetcontroller/update/:id'
+    redirectClose: nielsvandendries/assetmanagement/assetcontroller
+update:
+    redirect: nielsvandendries/assetmanagement/assetcontroller
+    redirectClose: nielsvandendries/assetmanagement/assetcontroller
+preview: {  }
