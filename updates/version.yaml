@@ -9,3 +9,5 @@ v1.0.3:
 v1.0.4:
     - 'Updated table nielsvandendries_assetmanagement_customers'
     - builder_table_update_nielsvandendries_assetmanagement_customers.php
+v1.6.0:
+    - 'Full rebuild of plugin'
