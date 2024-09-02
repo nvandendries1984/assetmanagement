@@ -2,7 +2,23 @@
     "name": "nielsvandendries/assetmanagement-plugin",
     "type": "october-plugin",
     "description": "A Small Assetmanagement for Small Businesses",
+    "license": "MIT",
     "require": {
         "composer/installers": "~1.0"
+    },
+    "authors": [
+            {
+                    "name": "Niels van den Dries",
+                    "email": "niels@nvandendries.nl",
+                    "homepage": "https://nvandendries.dev",
+                    "role": "Developer"
+            }
+        ]
+    }
+    {
+        "support": {
+            "source": "https://github.com/nvandendries1984/assetmanagement/issues",
+            "irc": "irc://stackhost.nl/support"
+        }
     }
 }
